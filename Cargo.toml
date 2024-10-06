@@ -1,0 +1,13 @@
+[package]
+name = "iter_enumeration"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+readme = "README.md"
+keywords = ["iterator"]
+repository = "https://github.com/Vollkornaffe/iter_enumeration"
+description = "Unifies Iterators over Same Type"
+categories = ["algorithms", "rust-patterns", "no-std", "no-std::no-alloc"]
+authors = ["Vollkornaffe <vollkornaffe@gmail.com>"]
+
+[dependencies]
