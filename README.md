@@ -1,13 +1,13 @@
 # iter_enumeration
 
-This crate provides utility to unify [`Iterator`]s over the same type.
+This crate provides utility to unify `Iterator`s over the same type.
 
-Dealing with [`Iterator`] types originating from different parts of the code,
+Dealing with `Iterator` types originating from different parts of the code,
 such as separate branches of a `match`, can be a bit cumbersome.
 A similar problem arises with an iterator over iterators.
 
 Alternative solutions to this problem:
-One can [`Iterator::collect`] the iterator, do something with `Box<dyn Iterator>`,
+One can `collect` the iterator, do something with `Box<dyn Iterator>`,
 or redesign altogether.
 
 However, this crate allows you to do this:
